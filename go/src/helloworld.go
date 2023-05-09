@@ -23,7 +23,7 @@ import (
 )
 
 func main() {
-	var version = "1.3"
+	var version = "1.4"
 	var setVersion = os.Getenv("VERSION")
 	if setVersion != "" {
 		version = setVersion
